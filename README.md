@@ -20,6 +20,5 @@ Compile e execute o arquivo `SimuladorFila.java`. Ao rodar, ele acionará o mét
 Pra quem não lembra, é só dar javac .\SimuladorFila.java e depois java SimuladorFila
 
 ### Próximos Passos (Etapas Seguintes):
-* Criar a função de conversão da Distribuição Uniforme (para transformar o número gerado de 0 a 1 em um tempo real de minutos/segundos dentro dos nossos intervalos).
 * Montar as estruturas de dados para o Escalonador de Eventos (controlar quem chega e quem sai).
 * Implementar o laço principal da simulação no `main()` e as rotinas de `Chegada` e `Saída`.
