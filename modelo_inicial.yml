@@ -1,0 +1,80 @@
+#==============================================================================
+#  T2 - Avaliacao de Aprendizagem
+#  Modelo inicial - Assistencia tecnica de computadores e celulares
+#
+#  Realidade simulada:
+#  Q1 = Recepcao e triagem              Kendall: G/G/1/10
+#  Q2 = Diagnostico tecnico             Kendall: G/G/1/8
+#  Q3 = Manutencao/reparo               Kendall: G/G/2/12
+#  Q4 = Teste final e retirada          Kendall: G/G/1/6
+#
+#  Chegadas externas:
+#  - Primeira chegada em Q1 no tempo 2.0
+#  - Demais chegadas externas em Q1 seguem intervalo uniforme entre 3.0 e 7.0
+#
+#  Probabilidades de saida do sistema:
+#  - Q2: 0.10
+#  - Q4: 0.75
+#==============================================================================
+
+!PARAMETERS
+
+arrivals:
+   Q1: 2.0
+
+queues:
+   Q1:
+      servers: 1
+      capacity: 10
+      minArrival: 3.0
+      maxArrival: 7.0
+      minService: 2.0
+      maxService: 5.0
+
+   Q2:
+      servers: 1
+      capacity: 8
+      minService: 8.0
+      maxService: 15.0
+
+   Q3:
+      servers: 2
+      capacity: 12
+      minService: 20.0
+      maxService: 40.0
+
+   Q4:
+      servers: 1
+      capacity: 6
+      minService: 5.0
+      maxService: 12.0
+
+network:
+-  source: Q1
+   target: Q2
+   probability: 1.0
+
+-  source: Q2
+   target: Q3
+   probability: 0.80
+
+-  source: Q2
+   target: Q1
+   probability: 0.10
+
+-  source: Q3
+   target: Q4
+   probability: 0.85
+
+-  source: Q3
+   target: Q2
+   probability: 0.15
+
+-  source: Q4
+   target: Q3
+   probability: 0.25
+
+rndnumbersPerSeed: 100000
+
+seeds:
+- 42

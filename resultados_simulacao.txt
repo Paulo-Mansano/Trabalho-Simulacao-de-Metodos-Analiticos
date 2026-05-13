@@ -1,0 +1,152 @@
+
+==========================================================
+RESULTADO DA SIMULACAO: Modelo Inicial - modelo_inicial.yml
+==========================================================
+Tempo global da simulacao: 96076,450318 minutos
+Aleatorios usados: 100000
+Clientes que sairam do sistema: 4872
+
+INDICES DE DESEMPENHO:
+----------------------------------------------------------
+Fila          Pop.Media        Vazao   Utilizacao      Tempo Resp.     Perdas
+Q1             0,831138     0,209583       73,49%         3,965675          0
+Q2             7,772198     0,086858       99,99%        89,481745      12703
+Q3            10,957680     0,066666       99,98%       164,367687       1659
+Q4             0,544200     0,057100       48,28%         9,530580          0
+
+PROBABILIDADES DOS ESTADOS:
+----------------------------------------------------------
+
+Fila: Q1
+Estado  0: tempo = 25467,419039 | probabilidade = 0,26507452
+Estado  1: tempo = 61880,735905 | probabilidade = 0,64407808
+Estado  2: tempo =  8226,327678 | probabilidade = 0,08562273
+Estado  3: tempo =   488,432356 | probabilidade = 0,00508379
+Estado  4: tempo =    13,535340 | probabilidade = 0,00014088
+Estado  5: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  6: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  7: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  8: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  9: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 10: tempo =     0,000000 | probabilidade = 0,00000000
+
+Fila: Q2
+Estado  0: tempo =     5,746923 | probabilidade = 0,00005982
+Estado  1: tempo =     5,003208 | probabilidade = 0,00005208
+Estado  2: tempo =     8,758501 | probabilidade = 0,00009116
+Estado  3: tempo =    11,631801 | probabilidade = 0,00012107
+Estado  4: tempo =     6,490261 | probabilidade = 0,00006755
+Estado  5: tempo =    11,069843 | probabilidade = 0,00011522
+Estado  6: tempo =     5,781931 | probabilidade = 0,00006018
+Estado  7: tempo = 21624,001558 | probabilidade = 0,22507078
+Estado  8: tempo = 74397,966292 | probabilidade = 0,77436215
+
+Fila: Q3
+Estado  0: tempo =    15,439098 | probabilidade = 0,00016070
+Estado  1: tempo =     9,278163 | probabilidade = 0,00009657
+Estado  2: tempo =    11,738891 | probabilidade = 0,00012218
+Estado  3: tempo =    20,832642 | probabilidade = 0,00021683
+Estado  4: tempo =    22,474551 | probabilidade = 0,00023392
+Estado  5: tempo =    77,125933 | probabilidade = 0,00080276
+Estado  6: tempo =   177,472232 | probabilidade = 0,00184720
+Estado  7: tempo =   441,806105 | probabilidade = 0,00459848
+Estado  8: tempo =  1606,780191 | probabilidade = 0,01672398
+Estado  9: tempo =  5161,919897 | probabilidade = 0,05372721
+Estado 10: tempo = 17997,249686 | probabilidade = 0,18732218
+Estado 11: tempo = 37649,235079 | probabilidade = 0,39186747
+Estado 12: tempo = 32885,097849 | probabilidade = 0,34228052
+
+Fila: Q4
+Estado  0: tempo = 49689,350425 | probabilidade = 0,51718554
+Estado  1: tempo = 40489,436483 | probabilidade = 0,42142935
+Estado  2: tempo =  5897,663411 | probabilidade = 0,06138511
+Estado  3: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  4: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  5: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  6: tempo =     0,000000 | probabilidade = 0,00000000
+
+==========================================================
+RESULTADO DA SIMULACAO: Modelo Melhorado - modelo_melhorado.yml
+==========================================================
+Tempo global da simulacao: 92013,722149 minutos
+Aleatorios usados: 100000
+Clientes que sairam do sistema: 6172
+
+INDICES DE DESEMPENHO:
+----------------------------------------------------------
+Fila          Pop.Media        Vazao   Utilizacao      Tempo Resp.     Perdas
+Q1             0,814222     0,208458       73,00%         3,905925          0
+Q2             7,770217     0,086857       99,99%        89,460288      12218
+Q3             2,062671     0,079662       66,48%        25,892771          0
+Q4             0,717103     0,068392       58,16%        10,485194          0
+
+PROBABILIDADES DOS ESTADOS:
+----------------------------------------------------------
+
+Fila: Q1
+Estado  0: tempo = 24843,574315 | probabilidade = 0,26999858
+Estado  1: tempo = 59728,075988 | probabilidade = 0,64912140
+Estado  2: tempo =  7137,132601 | probabilidade = 0,07756596
+Estado  3: tempo =   302,543791 | probabilidade = 0,00328803
+Estado  4: tempo =     2,395454 | probabilidade = 0,00002603
+Estado  5: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  6: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  7: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  8: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  9: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 10: tempo =     0,000000 | probabilidade = 0,00000000
+
+Fila: Q2
+Estado  0: tempo =     5,746923 | probabilidade = 0,00006246
+Estado  1: tempo =     5,003208 | probabilidade = 0,00005437
+Estado  2: tempo =     8,758501 | probabilidade = 0,00009519
+Estado  3: tempo =    11,631801 | probabilidade = 0,00012641
+Estado  4: tempo =     6,437518 | probabilidade = 0,00006996
+Estado  5: tempo =     9,521006 | probabilidade = 0,00010347
+Estado  6: tempo =    12,523418 | probabilidade = 0,00013610
+Estado  7: tempo = 20872,085124 | probabilidade = 0,22683666
+Estado  8: tempo = 71082,014650 | probabilidade = 0,77251537
+
+Fila: Q3
+Estado  0: tempo =  3093,051581 | probabilidade = 0,03361511
+Estado  1: tempo = 21147,513223 | probabilidade = 0,22982999
+Estado  2: tempo = 40964,731997 | probabilidade = 0,44520242
+Estado  3: tempo = 21251,213883 | probabilidade = 0,23095701
+Estado  4: tempo =  4892,376398 | probabilidade = 0,05317007
+Estado  5: tempo =   609,804235 | probabilidade = 0,00662732
+Estado  6: tempo =    41,134497 | probabilidade = 0,00044705
+Estado  7: tempo =    13,109626 | probabilidade = 0,00014247
+Estado  8: tempo =     0,786708 | probabilidade = 0,00000855
+Estado  9: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 10: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 11: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 12: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 13: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 14: tempo =     0,000000 | probabilidade = 0,00000000
+Estado 15: tempo =     0,000000 | probabilidade = 0,00000000
+
+Fila: Q4
+Estado  0: tempo = 38496,196731 | probabilidade = 0,41837452
+Estado  1: tempo = 41862,658339 | probabilidade = 0,45496104
+Estado  2: tempo = 10853,281507 | probabilidade = 0,11795286
+Estado  3: tempo =   792,239510 | probabilidade = 0,00861001
+Estado  4: tempo =     9,346061 | probabilidade = 0,00010157
+Estado  5: tempo =     0,000000 | probabilidade = 0,00000000
+Estado  6: tempo =     0,000000 | probabilidade = 0,00000000
+
+==========================================================
+COMPARACAO ENTRE MODELO INICIAL E MODELO MELHORADO
+==========================================================
+Fila              R Inicial      R Melhorado         Variacao (%)
+Q1                 3,965675         3,905925               -1,51%
+Q2                89,481745        89,460288               -0,02%
+Q3               164,367687        25,892771              -84,25%
+Q4                 9,530580        10,485194              +10,02%
+
+Perdas totais no modelo inicial: 14362
+Perdas totais no modelo melhorado: 12218
+Variacao das perdas totais: -14,93%
+
+Taxa de perdas inicial: 0,14948512 perdas/min
+Taxa de perdas melhorada: 0,13278454 perdas/min
+Variacao da taxa de perdas: -11,17%
